@@ -119,8 +119,12 @@ currentProductSizes.forEach((size, idex) => {
         currentProductSizes.forEach((size) => {
             size.style.backgroundColor = "white";
             size.style.color = "black";
-        })
+        });
         size.style.backgroundColor = "black";
         size.style.color = "white";
-    })
-})
+    });
+});
+
+const productButton = document.querySelector(".productButton");
+const payment = document.querySelector(".payment");
+const close = document.querySelector(".close");
